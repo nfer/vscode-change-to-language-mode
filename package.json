@@ -3,18 +3,32 @@
   "displayName": "change-to-language-mode",
   "description": "",
   "version": "0.0.1",
+  "publisher": "Nfer Zhuang<nfer.zhuang@gmail.com>",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.56.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfer/vscode-change-to-language-mode"
+  },
+  "bugs": {
+    "url": "https://github.com/nfer/vscode-change-to-language-mode/issues"
+  },
+  "keywords": [
+    "change",
+    "language",
+    "mode"
+  ],
   "categories": [
     "Other"
   ],
   "activationEvents": [
-	"onCommand:change-to-language-mode.changeToHTML",
-	"onCommand:change-to-language-mode.changeToJavaScript",
-	"onCommand:change-to-language-mode.changeToCSS",
-	"onCommand:change-to-language-mode.changeToJSON",
-	"onCommand:change-to-language-mode.changeToTypeScript"
+    "onCommand:change-to-language-mode.changeToHTML",
+    "onCommand:change-to-language-mode.changeToJavaScript",
+    "onCommand:change-to-language-mode.changeToCSS",
+    "onCommand:change-to-language-mode.changeToJSON",
+    "onCommand:change-to-language-mode.changeToTypeScript"
   ],
   "main": "./out/extension.js",
   "contributes": {
