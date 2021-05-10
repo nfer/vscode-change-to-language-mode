@@ -10,14 +10,34 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:change-to-language-mode.changToHTML"
+	"onCommand:change-to-language-mode.changeToHTML",
+	"onCommand:change-to-language-mode.changeToJavaScript",
+	"onCommand:change-to-language-mode.changeToCSS",
+	"onCommand:change-to-language-mode.changeToJSON",
+	"onCommand:change-to-language-mode.changeToTypeScript"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "change-to-language-mode.changToHTML",
+        "command": "change-to-language-mode.changeToHTML",
         "title": "Change to HTML Language"
+      },
+      {
+        "command": "change-to-language-mode.changeToJavaScript",
+        "title": "Change to JavaScript Language"
+      },
+      {
+        "command": "change-to-language-mode.changeToCSS",
+        "title": "Change to CSS Language"
+      },
+      {
+        "command": "change-to-language-mode.changeToJSON",
+        "title": "Change to JSON Language"
+      },
+      {
+        "command": "change-to-language-mode.changeToTypeScript",
+        "title": "Change to TypeScript Language"
       }
     ]
   },
