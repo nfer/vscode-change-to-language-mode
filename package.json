@@ -41,43 +41,43 @@
     "commands": [
       {
         "command": "change-to-language-mode.changeToHTML",
-        "title": "Change to HTML Language"
+        "title": "Change to HTML Mode"
       },
       {
         "command": "change-to-language-mode.changeToHTMLAndFormat",
-        "title": "Change to HTML Language And Format"
+        "title": "Change to HTML Mode And Format"
       },
       {
         "command": "change-to-language-mode.changeToJavaScript",
-        "title": "Change to JavaScript Language"
+        "title": "Change to JavaScript Mode"
       },
       {
         "command": "change-to-language-mode.changeToJavaScriptAndFormat",
-        "title": "Change to JavaScript Language And Format"
+        "title": "Change to JavaScript Mode And Format"
       },
       {
         "command": "change-to-language-mode.changeToCSS",
-        "title": "Change to CSS Language"
+        "title": "Change to CSS Mode"
       },
       {
         "command": "change-to-language-mode.changeToCSSAndFormat",
-        "title": "Change to CSS Language And Format"
+        "title": "Change to CSS Mode And Format"
       },
       {
         "command": "change-to-language-mode.changeToJSON",
-        "title": "Change to JSON Language"
+        "title": "Change to JSON Mode"
       },
       {
         "command": "change-to-language-mode.changeToJSONAndFormat",
-        "title": "Change to JSON Language And Format"
+        "title": "Change to JSON Mode And Format"
       },
       {
         "command": "change-to-language-mode.changeToTypeScript",
-        "title": "Change to TypeScript Language"
+        "title": "Change to TypeScript Mode"
       },
       {
         "command": "change-to-language-mode.changeToTypeScriptAndFormat",
-        "title": "Change to TypeScript Language And Format"
+        "title": "Change to TypeScript Mode And Format"
       }
     ]
   },
