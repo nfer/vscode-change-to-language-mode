@@ -3,7 +3,7 @@
   "displayName": "change-to-language-mode",
   "description": "",
   "version": "0.0.1",
-  "publisher": "Nfer Zhuang<nfer.zhuang@gmail.com>",
+  "publisher": "NferZhuang",
   "license": "MIT",
   "engines": {
     "vscode": "^1.56.0"
