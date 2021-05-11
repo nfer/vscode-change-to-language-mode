@@ -26,10 +26,15 @@
   "icon": "icon.png",
   "activationEvents": [
     "onCommand:change-to-language-mode.changeToHTML",
+    "onCommand:change-to-language-mode.changeToHTMLAndFormat",
     "onCommand:change-to-language-mode.changeToJavaScript",
+    "onCommand:change-to-language-mode.changeToJavaScriptAndFormat",
     "onCommand:change-to-language-mode.changeToCSS",
+    "onCommand:change-to-language-mode.changeToCSSAndFormat",
     "onCommand:change-to-language-mode.changeToJSON",
-    "onCommand:change-to-language-mode.changeToTypeScript"
+    "onCommand:change-to-language-mode.changeToJSONAndFormat",
+    "onCommand:change-to-language-mode.changeToTypeScript",
+    "onCommand:change-to-language-mode.changeToTypeScripAndFormatt"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -39,20 +44,40 @@
         "title": "Change to HTML Language"
       },
       {
+        "command": "change-to-language-mode.changeToHTMLAndFormat",
+        "title": "Change to HTML Language And Format"
+      },
+      {
         "command": "change-to-language-mode.changeToJavaScript",
         "title": "Change to JavaScript Language"
+      },
+      {
+        "command": "change-to-language-mode.changeToJavaScriptAndFormat",
+        "title": "Change to JavaScript Language And Format"
       },
       {
         "command": "change-to-language-mode.changeToCSS",
         "title": "Change to CSS Language"
       },
       {
+        "command": "change-to-language-mode.changeToCSSAndFormat",
+        "title": "Change to CSS Language And Format"
+      },
+      {
         "command": "change-to-language-mode.changeToJSON",
         "title": "Change to JSON Language"
       },
       {
+        "command": "change-to-language-mode.changeToJSONAndFormat",
+        "title": "Change to JSON Language And Format"
+      },
+      {
         "command": "change-to-language-mode.changeToTypeScript",
         "title": "Change to TypeScript Language"
+      },
+      {
+        "command": "change-to-language-mode.changeToTypeScriptAndFormat",
+        "title": "Change to TypeScript Language And Format"
       }
     ]
   },

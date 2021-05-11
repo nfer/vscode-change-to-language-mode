@@ -7,18 +7,50 @@ export function activate(context: vscode.ExtensionContext) {
 			if (!activeEditor) {
 				return;
 			}
-	
+
 			vscode.languages.setTextDocumentLanguage(activeEditor.document, language);
 		});
-	
+
 		context.subscriptions.push(disposable);
 	}
 
-	changeTo('changeToHTML', 'html');
-	changeTo('changeToJavaScript', 'javascript');
-	changeTo('changeToCSS', 'css');
-	changeTo('changeToJSON', 'json');
-	changeTo('changeToTypeScript', 'typescript');
+	function changeToAndFormat(cmd: string, language: string) {
+		const disposable = vscode.commands.registerCommand(`change-to-language-mode.${cmd}AndFormat`, () => {
+			const activeEditor = vscode.window.activeTextEditor;
+			if (!activeEditor) {
+				return;
+			}
+
+			vscode.languages.setTextDocumentLanguage(activeEditor.document, language)
+				.then(() => {
+					console.log(activeEditor.document.languageId);
+					vscode.commands.executeCommand('editor.action.formatDocument');
+				});
+		});
+
+		context.subscriptions.push(disposable);
+	}
+
+	const arr = [{
+		cmd: 'changeToHTML',
+		fmt: 'html',
+	}, {
+		cmd: 'changeToJavaScript',
+		fmt: 'javascript',
+	}, {
+		cmd: 'changeToCSS',
+		fmt: 'css',
+	}, {
+		cmd: 'changeToJSON',
+		fmt: 'json',
+	}, {
+		cmd: 'changeToTypeScript',
+		fmt: 'typescript',
+	}];
+	arr.forEach(item => {
+		changeTo(item.cmd, item.fmt);
+		changeToAndFormat(item.cmd, item.fmt);
+	});
 }
 
-export function deactivate() {}
+export function deactivate() { }
