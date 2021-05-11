@@ -23,7 +23,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 			vscode.languages.setTextDocumentLanguage(activeEditor.document, language)
 				.then(() => {
-					console.log(activeEditor.document.languageId);
 					vscode.commands.executeCommand('editor.action.formatDocument');
 				});
 		});
