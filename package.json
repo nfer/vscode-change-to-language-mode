@@ -34,7 +34,9 @@
     "onCommand:change-to-language-mode.changeToJSON",
     "onCommand:change-to-language-mode.changeToJSONAndFormat",
     "onCommand:change-to-language-mode.changeToTypeScript",
-    "onCommand:change-to-language-mode.changeToTypeScripAndFormatt"
+    "onCommand:change-to-language-mode.changeToTypeScripAndFormat",
+    "onCommand:change-to-language-mode.changeToMarkdown",
+    "onCommand:change-to-language-mode.changeToPlainText"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -78,6 +80,14 @@
       {
         "command": "change-to-language-mode.changeToTypeScriptAndFormat",
         "title": "Change to TypeScript Mode And Format"
+      },
+      {
+        "command": "change-to-language-mode.changeToMarkdown",
+        "title": "Change to Markdown Mode"
+      },
+      {
+        "command": "change-to-language-mode.changeToPlainText",
+        "title": "Change to PlainText Mode"
       }
     ]
   },

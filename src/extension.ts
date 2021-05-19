@@ -50,6 +50,16 @@ export function activate(context: vscode.ExtensionContext) {
 		changeTo(item.cmd, item.fmt);
 		changeToAndFormat(item.cmd, item.fmt);
 	});
+
+	[{
+		cmd: 'changeToMarkdown',
+		fmt: 'markdown',
+	}, {
+		cmd: 'changeToPlainText',
+		fmt: 'plaintext',
+	}].forEach(item => {
+		changeTo(item.cmd, item.fmt);
+	});
 }
 
 export function deactivate() { }

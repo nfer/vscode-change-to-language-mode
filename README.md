@@ -26,5 +26,7 @@ changeToJavaScript | `javascript`
 changeToCSS | `css`
 changeToJSON | `json`
 changeToTypeScript | `typescript`
+changeToMarkdown | `markdown`
+changeToPlainText | `plaintext`
 
 https://code.visualstudio.com/docs/languages/identifiers
