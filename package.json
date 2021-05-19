@@ -2,7 +2,7 @@
   "name": "change-to-language-mode",
   "displayName": "Change To Language Mode",
   "description": "Provides JUST one command to Change Language Mode.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "NferZhuang",
   "license": "MIT",
   "engines": {
