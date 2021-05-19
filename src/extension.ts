@@ -37,6 +37,9 @@ export function activate(context: vscode.ExtensionContext) {
 		cmd: 'changeToJavaScript',
 		fmt: 'javascript',
 	}, {
+		cmd: 'changeToJS',
+		fmt: 'javascript',
+	}, {
 		cmd: 'changeToCSS',
 		fmt: 'css',
 	}, {

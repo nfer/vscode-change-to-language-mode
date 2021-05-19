@@ -29,6 +29,8 @@
     "onCommand:change-to-language-mode.changeToHTMLAndFormat",
     "onCommand:change-to-language-mode.changeToJavaScript",
     "onCommand:change-to-language-mode.changeToJavaScriptAndFormat",
+    "onCommand:change-to-language-mode.changeToJS",
+    "onCommand:change-to-language-mode.changeToJSAndFormat",
     "onCommand:change-to-language-mode.changeToCSS",
     "onCommand:change-to-language-mode.changeToCSSAndFormat",
     "onCommand:change-to-language-mode.changeToJSON",
@@ -56,6 +58,14 @@
       {
         "command": "change-to-language-mode.changeToJavaScriptAndFormat",
         "title": "Change to JavaScript Mode And Format"
+      },
+      {
+        "command": "change-to-language-mode.changeToJS",
+        "title": "Change to JS Mode"
+      },
+      {
+        "command": "change-to-language-mode.changeToJSAndFormat",
+        "title": "Change to JS Mode And Format"
       },
       {
         "command": "change-to-language-mode.changeToCSS",
