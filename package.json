@@ -6,7 +6,7 @@
   "publisher": "NferZhuang",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.50.0"
+    "vscode": "^1.56.0"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "Other"
   ],
   "icon": "icon.png",
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
