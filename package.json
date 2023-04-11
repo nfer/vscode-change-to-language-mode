@@ -82,6 +82,10 @@
       {
         "command": "change-to-language-mode.changeToPlainText",
         "title": "Change to PlainText Mode"
+      },
+      {
+        "command": "change-to-language-mode.changeToLog",
+        "title": "Change to Log Mode"
       }
     ]
   },

@@ -60,6 +60,9 @@ export function activate(context: vscode.ExtensionContext) {
 	}, {
 		cmd: 'changeToPlainText',
 		fmt: 'plaintext',
+	}, {
+		cmd: 'changeToLog',
+		fmt: 'log',
 	}].forEach(item => {
 		changeTo(item.cmd, item.fmt);
 	});
