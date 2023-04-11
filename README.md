@@ -28,5 +28,6 @@ changeToJSON | `json`
 changeToTypeScript | `typescript`
 changeToMarkdown | `markdown`
 changeToPlainText | `plaintext`
+changeToLog | `log`
 
 https://code.visualstudio.com/docs/languages/identifiers
