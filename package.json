@@ -24,22 +24,6 @@
     "Other"
   ],
   "icon": "icon.png",
-  "activationEvents": [
-    "onCommand:change-to-language-mode.changeToHTML",
-    "onCommand:change-to-language-mode.changeToHTMLAndFormat",
-    "onCommand:change-to-language-mode.changeToJavaScript",
-    "onCommand:change-to-language-mode.changeToJavaScriptAndFormat",
-    "onCommand:change-to-language-mode.changeToJS",
-    "onCommand:change-to-language-mode.changeToJSAndFormat",
-    "onCommand:change-to-language-mode.changeToCSS",
-    "onCommand:change-to-language-mode.changeToCSSAndFormat",
-    "onCommand:change-to-language-mode.changeToJSON",
-    "onCommand:change-to-language-mode.changeToJSONAndFormat",
-    "onCommand:change-to-language-mode.changeToTypeScript",
-    "onCommand:change-to-language-mode.changeToTypeScripAndFormat",
-    "onCommand:change-to-language-mode.changeToMarkdown",
-    "onCommand:change-to-language-mode.changeToPlainText"
-  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
